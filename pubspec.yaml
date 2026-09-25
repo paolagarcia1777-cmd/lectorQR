@@ -1,0 +1,25 @@
+name: flutter_proyecto
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^5.2.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.1
+  google_mlkit_barcode_scanning: ^0.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
